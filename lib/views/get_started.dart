@@ -107,7 +107,7 @@ class GetStartedScreen extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          'Click the icon and a navigation menu will appear. Click New Repository.',
+                          "Click the icon and a navigation menu will appear. Click 'New Repository'.",
                           style: TextStyle(
                             height: 1.2,
                             color: Colors.black,

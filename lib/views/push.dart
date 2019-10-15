@@ -33,7 +33,7 @@ class PushScreen extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          'Pushing and Pulling Files',
+                          'Pushing Files',
                           style: TextStyle(
                             height: 1.2,
                             color: Colors.black,
@@ -95,7 +95,44 @@ class PushScreen extends StatelessWidget {
                           ),
                         ),
                       ),
-                     
+                     Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                          "The final step is to hit the Push button on the top right corner. This will submit your changes and upload the code to the project.",
+                          style: TextStyle(
+                            height: 1.2,
+                            color: Colors.black,
+                            fontSize: 15.0,
+                            fontWeight: FontWeight.normal,
+                          ),
+                        ),
+                      ),
+                      Container(child: Image.asset("assets/img/pull3.png"),),
+
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                          'Pulling Files',
+                          style: TextStyle(
+                            height: 1.2,
+                            color: Colors.black,
+                            fontSize: 20.0,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                     Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text(
+                          "Similarly to pushing, whenever someone that is collaborating in your project makes changes, you can hit pull on the same place you pressed push and that will download and bring the newest files of the project in your local machine. ",
+                          style: TextStyle(
+                            height: 1.2,
+                            color: Colors.black,
+                            fontSize: 15.0,
+                            fontWeight: FontWeight.normal,
+                          ),
+                        ),
+                      ),
                       
                       
 

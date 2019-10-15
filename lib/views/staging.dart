@@ -57,7 +57,7 @@ class GitDesktopScreen extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          'Installing GitDesktop',
+                          'Installing Git Desktop',
                           style: TextStyle(
                             height: 1.2,
                             color: Colors.black,

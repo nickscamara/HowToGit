@@ -45,7 +45,7 @@ class ReadmeScreen extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
-                          'A README is a text document contained in all open source applications to inform the user about the software that he will install. It is utilized to state clearly the intention of the application and specially how to use it. This is a sample readme file from a user view:',
+                          'A README is a text document contained in all open source applications to inform the user about the software that they will install. It is utilized to state clearly the intention of the application and specially how to use it. This is a sample readme file from a user view:',
                           style: TextStyle(
                             height: 1.2,
                             color: Colors.black,
